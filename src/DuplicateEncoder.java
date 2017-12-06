@@ -28,7 +28,6 @@ public class DuplicateEncoder {
 	}
 	
 	public static void main(String[] args) {
-		DuplicateEncoder x = new DuplicateEncoder();
-		System.out.println(x.encode("Success"));
+		System.out.println(encode("Success"));
 	}
 }

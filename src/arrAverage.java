@@ -8,7 +8,6 @@ public class arrAverage{
   }
   
   public static void main(String[] args) {
-	  arrAverage x = new arrAverage();
-	  System.out.println(x.find_average(new int[] {1,2,3}));
+	  System.out.println(find_average(new int[] {1,2,3}));
   }
 }

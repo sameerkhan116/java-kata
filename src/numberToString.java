@@ -6,7 +6,6 @@ class numberToString {
 	}
 	
 	public static void main(String[] args) {
-		numberToString x = new numberToString();
-		System.out.println(x.numberToString(123));
+		System.out.println(numberToString(123));
 	}
 }

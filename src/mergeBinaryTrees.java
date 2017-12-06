@@ -10,7 +10,7 @@ public class mergeBinaryTrees {
 	}
 	
 	public static void main(String[] args) {
-		mergeBinaryTrees x = new mergeBinaryTrees();
+//		mergeBinaryTrees x = new mergeBinaryTrees();
 //		TreeNode[] t1 = new TreeNode[] {1,2,3,4};
 //		TreeNode[] t2 = new TreeNode[] {2,1,3,null,4,null,7};
 //		System.out.println(x.mergeTrees(t1,t2));

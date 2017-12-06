@@ -11,26 +11,14 @@ public class SqInRect {
 			return null;
 		}
 		
-		int i = 0;
-		int tot = lng * wdth;
-		
-		while(tot - i * i > 0) {
-			i++;
-		}
-		
-		while(i > lng || i > wdth) {
-			i--;
-		}
-	
-		int j = i;
-		while(j > 0) {
-			if(tot - j * j >= 0) {
-				while(tot - j * j >= 0) {
-					fin.add(j);
-					tot -= j * j;
-				}
+		while(lng * wdth > 0) {
+			if(lng > wdth) {
+				fin.add(wdth);
+				lng -= wdth;
+			} else {
+				fin.add(lng);
+				wdth -=lng;
 			}
-			j /= 2;
 		}
 		
 		return fin;

@@ -66,9 +66,9 @@ public class simpleEncrypt {
 	  }
   
 	  public static void main(String[] args) {
-		  simpleEncrypt x = new simpleEncrypt();
+//		  simpleEncrypt x = new simpleEncrypt();
 //		  System.out.println(x.encryption("  "));
-		  System.out.println(x.encrypt("This is a test!!", 1));
+//		  System.out.println(x.encrypt("This is a test!!", 1));
 //		  System.out.println(x.decryption("hsi  etTi sats!"));
 //		  System.out.println(x.decrypt("OI[PMFLFKCGJO]", 4));
 	  }

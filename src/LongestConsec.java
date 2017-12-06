@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 class LongestConsec {
@@ -40,7 +39,6 @@ class LongestConsec {
     	}
     
     public static void main(String[] args) {
-    		LongestConsec x = new LongestConsec();
-    		System.out.println(x.longestConsec(new String[] {"it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"}, 3));
+    		System.out.println(longestConsec(new String[] {"it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"}, 3));
     }
 }

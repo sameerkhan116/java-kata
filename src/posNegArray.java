@@ -23,7 +23,6 @@ public class posNegArray {
     }
     
     public static void main(String[] args) {
-    		posNegArray x = new posNegArray();
-    		System.out.println(x.countPositivesSumNegatives(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15}));
+    		System.out.println(countPositivesSumNegatives(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15}));
     }
 }

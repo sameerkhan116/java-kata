@@ -25,9 +25,8 @@ public class TwoToOne {
     }
     
     public static void main(String[] args) {
-    		TwoToOne x = new TwoToOne();
     		String a = "xyaabbbccccdefww";
     		String b = "xxxxyyyyabklmopq";
-    		System.out.println(x.longest(a, b));
+    		System.out.println(longest(a, b));
     }
 }

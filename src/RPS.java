@@ -27,7 +27,6 @@ public class RPS {
 	}
 	
 	public static void main(String[] args) {
-		RPS x = new RPS();
-		System.out.println(x.rps("rock", "scissors"));
+		System.out.println(rps("rock", "scissors"));
 	}
 }
