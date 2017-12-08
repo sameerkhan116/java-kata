@@ -2,10 +2,7 @@ public class Decompose {
 
 	public String decompose(long n) {
 		String result = decomposer(n * n, n);
-		if(result != null) {
-			return result.trim();
-		}
-		return null;
+		return result == null ? null : result.trim();
 	}
 	
 	public String decomposer(long s, long i){
@@ -27,6 +24,6 @@ public class Decompose {
 	
 	public static void main(String[] args) {
 		Decompose x = new Decompose();
-		System.out.println(x.decompose(16));
+		System.out.println(x.decompose(4));
 	}
 }
