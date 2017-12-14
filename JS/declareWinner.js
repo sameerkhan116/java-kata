@@ -46,7 +46,6 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
 // return "";
     var x = Math.ceil(fighter1.health / fighter2.damagePerAttack);
     var y = Math.ceil(fighter2.health / fighter1.damagePerAttack);
-
     return x == y ? firstAttacker : ((x < y) ? fighter2.toString() : fighter1.toString());
     
 }
