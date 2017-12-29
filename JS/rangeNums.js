@@ -1,7 +1,8 @@
 // Should return a string representing the ranges
 function toRange(arr) {
     arr = Array.from(new Set(arr)).sort((a,b) => a - b);
-    for(var i = 0, r = []; i < arr.length;) {
+    var r = [];
+    for(var i = 0; i < arr.length;) {
         var s = i;
         while(i < arr.length && arr[i + 1] == arr[i] + 1) i++;
         r.push(i == s ? arr[i++] : arr[s] + "_" + arr[i++]);
