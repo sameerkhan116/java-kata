@@ -4,14 +4,13 @@
  * @return {number}
  */
 var myPow = function(x, n) {
-    var temp = 0.0;
+    var temp = 0;
     if(n == 0) return 1;
-    // temp = parseFloat(myPow(x,parseInt(n/2)).toFixed(5));
-    temp = myPow(x,parseInt(n/2));    
-    if(n % 2 == 0) return parseFloat(temp * temp);
+    temp = myPow(x,parseInt(n/2));
+    if(n % 2 == 0) return temp * temp;
     else {
-        if(n > 0) return parseFloat(x * temp * temp);
-        else return parseFloat((temp * temp)/x);
+        if(n > 0) return x * temp * temp;
+        else return (temp * temp) / x;
     }
 };
 
