@@ -10,6 +10,7 @@ var islandPerimeter = function(grid) {
                 islands++;
                 if(i < grid.length - 1 && grid[i+1][j] == 1) neighbours++;
                 if(j < grid[i].length - 1 && grid[i][j + 1] == 1) neighbours++;
+                console.log(islands, neighbours);
             }
         }
     }
