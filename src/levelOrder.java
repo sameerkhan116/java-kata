@@ -18,7 +18,7 @@ public class levelOrder {
 			TreeNode curr = visited.poll();
 			all.add(curr.val);
 			if(curr.left != null) visited.add(curr.left);
-			else if(curr.right != null) visited.add(curr.right);
+			if(curr.right != null) visited.add(curr.right);
 		}
 	}
 }
